@@ -1,0 +1,80 @@
+#haut_page{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.lh1,.lh2,.lh3{
+	margin: 10px;
+	line-height: 24px;
+	font-size: 13px;
+	font-family: "arial", sans-serif;
+	text-decoration: solid;
+	color: rgba(0,0,0,0.87);
+}
+
+.Connexion1{
+	margin: 10px;
+	border-color: rgb(66,133,244);
+	font-weight: 700;
+	line-height: 24px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: rgba(255,255,255);
+	text-decoration-style: solid;
+	background-color: rgb(66,133,244);
+	font-size: 13px;
+}
+
+#Corps{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 69px;
+}
+
+.logo{
+	padding-top: 109px;
+	padding-bottom: 10px;
+}
+
+#Boutons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 18px;
+}
+
+.b1,.b2{
+	padding: 9px;
+	height: 36px;
+	width: 150px;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+
+#langue{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: rgba(0,0,0,0.54);
+	font-size: 15px;
+	font-family: arial, sans-serif
+	line-height: 40px
+}
+
+footer{
+	margin-top: 90px;
+	display: flex;
+	background-color:#f2f2f2;
+	color: rgba(0,0,0,0.54)
+}
+
+#pied_page{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
